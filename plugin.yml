@@ -1,0 +1,14 @@
+name: IpOpper
+main: HotshotHD\Main
+version: 1.0.2
+api: [1.12.0, 1.13.0]
+author: HotshotHD
+description: Automatically Op a player by their IP Address!
+
+commands:
+  getip:
+    description: Get a player's ip address
+permissions:
+   getip.command:
+    description: "allows using /getip"
+    default: op
